@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width:80%;
+  height:80%;
   object-fit: cover;
   overflow: hidden;
+  margin: auto;
 `
 
 export const GridContainer = styled.section`
@@ -20,13 +21,18 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
 export const BlogCard = styled.div`
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  min-height: 600px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
