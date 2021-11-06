@@ -25,7 +25,9 @@ const Hero = (props) => (
         </Typist>
       </SectionText>
       <SectionText>
+        <a href="https://www.linkedin.com/in/gustavo-carvalho-guimaraes/" target="_blank">          
         <Button children="Saiba mais"></Button>
+        </a>
       </SectionText>
     </LeftSection>
     

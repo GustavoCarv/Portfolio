@@ -23,14 +23,14 @@ const Header = () =>  (
           </Link>
         </li>
         <li>
-          <Link href="#projects">
+          <Link href="#tech">
             <NavLink>
               Tecnologias
             </NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#projects">
+          <Link href="#about">
             <NavLink>
               Sobre
             </NavLink>
@@ -38,13 +38,13 @@ const Header = () =>  (
         </li>
       </Div2>
       <Div3>
-        <SocialIcons href="/">
+        <SocialIcons href="https://github.com/GustavoCarv" target="_blank">
           <AiFillGithub size="3rem"/>
         </SocialIcons> 
         <SocialIcons href="https://www.linkedin.com/in/gustavo-carvalho-guimaraes/" target="_blank">
           <AiFillLinkedin  size="3rem" />
         </SocialIcons> 
-        <SocialIcons href="/">
+        <SocialIcons href="https://www.instagram.com/guuhcarv/" target="_blank"> 
           <AiFillInstagram  size="3rem" />
         </SocialIcons> 
       </Div3>
