@@ -20,9 +20,9 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>
+{/*             <TitleContent>
               Stacks
-            </TitleContent>
+            </TitleContent> */}
             <TagList>
               {tags.map((tag, i) => {
                 return (
@@ -32,6 +32,18 @@ const Projects = () => (
               })}
             </TagList>
           </div>
+          <UtilityList>
+            <ExternalLinks 
+            href={source} 
+            target="_blank">
+              Código
+            </ExternalLinks>
+            <ExternalLinks 
+            href={visit}
+            target="_blank">
+              Link
+            </ExternalLinks>
+          </UtilityList>
         </BlogCard>
         )
       })}

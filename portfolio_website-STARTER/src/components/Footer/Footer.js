@@ -6,9 +6,45 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Telefone</LinkTitle>
+          <LinkItem
+            href="https://wa.me/5535991280067"
+            target="_blank"
+            rel="noreferrer"
+          >
+            (35)99128-0067
+          </LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:gustavo.carvg@gmail.com">
+            Gustavo.carvg@gmail.com
+          </LinkItem>
+        </LinkColumn>
+        <SocialIconsContainer>
+          <CompanyContainer>
+            <Slogan>
+              Continue aprendendo, sempre.
+            </Slogan>
+          </CompanyContainer>
+          <SocialIcons href="https://github.com/GustavoCarv" target="_blank">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons
+            href="https://www.linkedin.com/in/gustavo-carvalho-guimaraes/"
+            target="_blank"
+          >
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.instagram.com/guuhcarv/" target="_blank">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+        </SocialIconsContainer>
+      </LinkList>
+    </FooterWrapper>
   );
 };
 
