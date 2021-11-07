@@ -14,14 +14,17 @@ const Hero = (props) => (
        
       </SectionTitle>
       <SectionText>
-        <Typist>
+        <Typist 
+        cursor={
+          {hideWhenDone: true}
+        }>
           Programo em Liquido 
           <Typist.Backspace count={7} delay={500} />
           Javascript
           <Typist.Backspace count={10} delay={500} />
-          React.JS || Liquido || CSS
+          React.JS | Liquido | CSS
           <br/>
-          E tenho experiência com VTEX e Shopify
+          E tenho experiência com implantação VTEX e Shopify.
         </Typist>
       </SectionText>
       <SectionText>

@@ -8,8 +8,8 @@ const Technologies = () => (
     <SectionDivider />
     <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-      No mundo de desenvolvimento Web me foco mais em Front-End, mas busco
-      fortalecer o meu conhecimento no Back-End!
+      Sou um desenvolvedor Web Front-End! Desenvolvo especialmente em React.JS, e tenho conhecimentos em JQuery , SASS/ CSS , HTML/ Liquido e Javascript/ Typescript.
+      <br /> Além disso, tenho noções de Node.js e MySQL.
     </SectionText>
     <List>
       <ListItem>

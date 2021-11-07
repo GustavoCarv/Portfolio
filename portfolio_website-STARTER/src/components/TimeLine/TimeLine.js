@@ -48,7 +48,7 @@ const Timeline = () => {
         Sobre Mim
       </SectionTitle>
       <SectionText>
-      Durante a pandemia decidi passar por uma transição de carreira para ser Desenvolvedor Full-Stack, procurando uma área mais desafiadora e dinâmica. Logo de cara me interessei profundamente pelo mundo da tecnologia, cheio de obstáculos mas também grandes oportunidades e um caminho de aprimoramento ilimitado!
+      Durante a pandemia, decidi passar por uma transição de carreira para ser Desenvolvedor Full-Stack, procurando uma área mais desafiadora e dinâmica. Logo de cara me interessei profundamente pelo mundo da tecnologia, cheio de obstáculos mas também grandes oportunidades e um caminho de aprimoramento ilimitado!
       <br/>Agora, trabalho em uma companhia de implementação de ecommerce, a Econverse!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
